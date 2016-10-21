@@ -70,20 +70,20 @@
     </LinearLayout>
     <ImageView
         android:id="@+id/imgv_cancel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
         android:src="@drawable/icon_cancel"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"/>
+        android:scaleType="centerInside"
+       />
     <TextView
         android:id="@+id/tv_goto_register"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
         android:text="注册"
         android:textSize="@dimen/font_common_size_small"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"/>
+        android:gravity="center"
+        />
 
 </RelativeLayout>
 

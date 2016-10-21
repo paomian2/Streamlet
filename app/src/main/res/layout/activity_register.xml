@@ -64,11 +64,10 @@
     </LinearLayout>
     <ImageView
         android:id="@+id/imgv_cancel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
         android:src="@drawable/icon_cancel"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"/>
+        android:scaleType="centerInside"/>
 
 
 </RelativeLayout>

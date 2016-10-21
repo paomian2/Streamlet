@@ -9,6 +9,7 @@ import android.widget.TextView;
 import com.streamlet.R;
 import com.streamlet.appui.activity.common.LoginActivity;
 import com.streamlet.appui.activity.mine.FamilyRegActivity;
+import com.streamlet.appui.activity.mine.SettingActivity;
 import com.streamlet.appui.base.BaseFragment;
 import com.streamlet.base.AppActivityManager;
 import com.streamlet.common.util.SharedPreferenceUtil;
@@ -57,7 +58,7 @@ public class MineFragment extends BaseFragment {
      */
     @OnClick(R.id.tv_setting)
     public void goToSetting() {
-       // AppActivityManager.getInstance().goToActivityOfLogin(activity,);
+        AppActivityManager.getInstance().goTo(activity, SettingActivity.class);
     }
 
     /**我的发布*/

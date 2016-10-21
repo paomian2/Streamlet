@@ -38,14 +38,15 @@
             android:id="@+id/tv_setting"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minWidth="45dp"
+            android:minHeight="45dp"
             android:layout_alignParentRight="true"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
             android:drawableLeft="@drawable/icon_setting"
             android:drawablePadding="5dp"
             android:gravity="center_vertical"
             android:text="设置"
-            android:textSize="@dimen/font_common_size_small"/>
+            android:textSize="@dimen/font_common_size_small"
+            android:padding="10dp"/>
     </RelativeLayout>
 
     <LinearLayout
