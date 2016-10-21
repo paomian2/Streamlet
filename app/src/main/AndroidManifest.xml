@@ -46,12 +46,12 @@
         </activity>
         <activity android:name=".appui.activity.common.LoginActivity">
         </activity>
-        <activity android:name=".appui.activity.home.FamilyActivity">
-        </activity>
         <activity android:name=".appui.activity.map.FamilyFindActivity"/>
         <activity android:name=".appui.activity.map.LbsCommonActivity"/>
         <activity android:name=".appui.activity.mine.FamilyRegActivity"/>
         <activity android:name=".appui.activity.mine.FamilySearchActivity"/>
+        <activity android:name=".appui.activity.mine.SettingActivity"/>
+        <activity android:name=".appui.activity.mine.InfomationActivity"/>
         <service android:name="com.amap.api.location.APSService"/>
 
         <meta-data

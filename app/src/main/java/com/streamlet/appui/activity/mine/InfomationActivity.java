@@ -1,4 +1,4 @@
-package com.streamlet.appui.activity.home;
+package com.streamlet.appui.activity.mine;
 
 import android.os.Bundle;
 
@@ -6,16 +6,18 @@ import com.streamlet.R;
 import com.streamlet.appui.base.BaseActivity;
 
 /**
- * Created by streamlet2 on 2016/10/20.
+ * Created by streamlet2 on 2016/10/22.
+ *
+ * @Description
  */
-public class FamilyActivity extends BaseActivity {
+public class InfomationActivity extends BaseActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_family);
-
+        setContentView(R.layout.act_information);
+        initData();
+        initUI();
     }
-
 
     @Override
     protected void initData() {
@@ -25,10 +27,8 @@ public class FamilyActivity extends BaseActivity {
     protected void initUI() {
 
     }
-
-
     @Override
     public String setTag() {
-        return null;
+        return InfomationActivity.class.getSimpleName();
     }
 }
