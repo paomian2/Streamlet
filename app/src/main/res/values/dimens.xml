@@ -1,0 +1,66 @@
+<resources>
+    <!-- Common Margin -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_margin_small">10dp</dimen>
+    <dimen name="activity_margin_medium">15dp</dimen>
+
+    <dimen name="mine_margin_small">5dp</dimen>
+    <dimen name="mine_list_margin_top">10dp</dimen>
+    <dimen name="item_list_margin_big">15dp</dimen>
+    <dimen name="mine_margin_top">15dp</dimen>
+    <dimen name="mine_margin_top_lager">25dp</dimen>
+
+    <!-- Common Size -->
+    <dimen name="font_common_size_small">12dp</dimen>
+    <dimen name="font_common_size_little">14dp</dimen>
+    <dimen name="font_common_size_medium">15dp</dimen>
+    <dimen name="font_common_size_big">18dp</dimen>
+    <dimen name="font_common_size_large">20dp</dimen>
+
+
+    <!-- 商字标志大小 -->
+    <dimen name="icon_common_size">16dp</dimen>
+
+    <!-- Common padding -->
+    <dimen name="layout_tv_padding_small">2dp</dimen>
+    <dimen name="layout_tv_padding_little">5dp</dimen>
+    <dimen name="layout_tv_padding_big">10dp</dimen>
+
+    <dimen name="layout_drawable_padding_small">2dp</dimen>
+    <dimen name="layout_drawable_padding_little">5dp</dimen>
+    <dimen name="layout_drawable_padding_big">10dp</dimen>
+
+
+    <!-- Others -->
+
+    <dimen name="x3">0.5dp</dimen>
+    <dimen name="dp">10dp</dimen>
+    <!-- slidingmenu 主内容宽度 -->
+    <dimen name="slidingmenu_contentw">50dp</dimen>
+    <dimen name="tab_top_fontsize">15sp</dimen>
+    <dimen name="img_x">100dip</dimen>
+
+    <!-- business -menu style -->
+    <dimen name="item_size">60dp</dimen>
+    <dimen name="item_margin">4dp</dimen>
+    <dimen name="item_text_size">18sp</dimen>
+    <dimen name="item_text_size_small">9sp</dimen>
+    <dimen name="expandable_selector_margin">10dp</dimen>
+    <dimen name="background_radius">100dp</dimen>
+
+    <!-- DrawerLayout -->
+    <dimen name="mm_up_arrow_margin">-16dp</dimen>
+
+
+    <dimen name="company_name_size">16dp</dimen>
+    <dimen name="product_name_size">14dp</dimen>
+    <dimen name="normal_size">12dp</dimen>
+    <dimen name="normal_top">10dp</dimen>
+    <dimen name="normal_left">10dp</dimen>
+    <dimen name="normal_right">10dp</dimen>
+    <dimen name="business_home_padding">15dp</dimen>
+    <dimen name="map_vonverge">10dp</dimen>
+
+
+</resources>

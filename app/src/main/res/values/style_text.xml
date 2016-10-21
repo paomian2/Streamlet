@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="mine_text_top" >
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/font_common_size_small</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawablePadding">10dp</item>
+    </style>
+
+    <style name="mine_text_item" >
+        <item name="android:drawableRight">@drawable/icon_next</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:textSize">@dimen/font_common_size_small</item>
+    </style>
+
+    <style name="edt_text" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:textSize">@dimen/font_common_size_small</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:background">@drawable/edt_bg</item>
+        <item name="android:padding">10dp</item>
+
+    </style>
+
+</resources>

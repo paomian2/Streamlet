@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 配置属性 便于统一改style 具体使用的值到themes配置里边找 -->
+    <!-- <attr name="theme_color" format="color" /> -->
+    <!-- <attr name="tab_item_textcolor" format="color|reference" /> -->
+    <!-- <attr name="tab_icon_hotspot" format="reference" /> -->
+    <!-- <attr name="tab_icon_activities" format="reference" /> -->
+    <!-- <attr name="tab_icon_mine" format="reference" /> -->
+    <!-- <attr name="tab_icon_record" format="reference" /> -->
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension"/>
+        <attr name="border_color" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="ProgressWheel">
+        <attr name="matProg_progressIndeterminate" format="boolean"/>
+        <attr name="matProg_barColor" format="color"/>
+        <attr name="matProg_rimColor" format="color"/>
+        <attr name="matProg_rimWidth" format="dimension"/>
+        <attr name="matProg_spinSpeed" format="float"/>
+        <attr name="matProg_barSpinCycleTime" format="integer"/>
+        <attr name="matProg_circleRadius" format="dimension"/>
+        <attr name="matProg_fillRadius" format="boolean"/>
+        <attr name="matProg_barWidth" format="dimension"/>
+        <attr name="matProg_linearProgress" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="ViewFlow">
+        <attr name="sidebuffer" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="CircleFlowIndicator">
+        <attr name="activeColor" format="color"/>
+        <attr name="inactiveColor" format="color"/>
+        <attr name="radius2" format="dimension"/>
+        <attr name="centered2" format="boolean"/>
+        <attr name="fadeOut" format="integer"/>
+        <attr name="inactiveType">
+            <flag name="stroke" value="0"/>
+            <flag name="fill" value="1"/>
+        </attr>
+        <attr name="activeType">
+            <flag name="stroke" value="0"/>
+            <flag name="fill" value="1"/>
+        </attr>
+        <attr name="circleSeparation" format="dimension"/>
+        <attr name="activeRadius" format="dimension"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="ViewPagerIndicator">
+        <attr name="vpiTitlePageIndicatorStyle" format="reference"/>
+        <attr name="vpiTabPageIndicatorStyle" format="reference"/>
+    </declare-styleable>
+
+    <attr name="selectedColor" format="color"/>
+    <attr name="unselectedColor" format="color"/>
+
+    <declare-styleable name="CirclePageIndicator">
+        <attr name="vpiCirclePageIndicatorStyle" format="reference"/>
+        <attr name="centered" format="boolean"/>
+        <attr name="fillColor" format="color"/>
+        <attr name="pageColor" format="color"/>
+        <attr name="android:orientation"/>
+        <attr name="radius" format="dimension"/>
+        <attr name="snap" format="boolean"/>
+        <attr name="strokeColor" format="color"/>
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="android:background"/>
+        <attr name="padding" format="dimension"/>
+        <attr name="unIndicateCircleType">
+            <enum name="empty" value="0"/>
+            <enum name="full" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="DragTopLayout">
+
+        <!--Set the collapse panel offset-->
+        <attr name="dtlCollapseOffset" format="dimension"/>
+
+        <!--Set enable drag over.The default value is true.-->
+        <attr name="dtlOverDrag" format="boolean"/>
+
+        <!--Open the top view after the drag layout is created. The default value is false.-->
+        <attr name="dtlOpen" format="boolean"/>
+
+        <!-- The id of the top view (which will be dragged) -->
+        <attr name="dtlTopView" format="reference"/>
+
+        <!-- The content view which will be dragged together with "dtlTopView" -->
+        <attr name="dtlDragContentView" format="reference"/>
+
+        <!-- True the top view can be dragged -->
+        <attr name="dtlCaptureTop" format="boolean"/>
+    </declare-styleable>
+
+    <!-- SlidingMenu -->
+    <declare-styleable name="SlidingMenu">
+        <attr name="mode">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+        <attr name="viewAbove" format="reference"/>
+        <attr name="viewBehind" format="reference"/>
+        <attr name="behindOffset" format="dimension"/>
+        <attr name="behindWidth" format="dimension"/>
+        <attr name="behindScrollScale" format="float"/>
+        <attr name="touchModeAbove">
+            <enum name="margin" value="0"/>
+            <enum name="fullscreen" value="1"/>
+            <enum name="none" value="2"/>
+        </attr>
+        <attr name="touchModeBehind">
+            <enum name="margin" value="0"/>
+            <enum name="fullscreen" value="1"/>
+            <enum name="none" value="2"/>
+        </attr>
+        <attr name="shadowDrawable" format="reference"/>
+        <attr name="shadowWidth" format="dimension"/>
+        <attr name="fadeEnabled" format="boolean"/>
+        <attr name="fadeDegree" format="float"/>
+        <attr name="selectorEnabled" format="boolean"/>
+        <attr name="selectorDrawable" format="reference"/>
+    </declare-styleable>
+    <item name="selected_view" type="id"/>
+    <item name="tag_clubsitem" type="id"/>
+
+
+    <declare-styleable name="expandable_selector">
+        <attr name="hide_background_if_collapsed" format="boolean"/>
+        <attr name="animation_duration" format="integer"/>
+        <attr name="hide_first_item_on_collapse" format="boolean"/>
+        <attr name="expand_interpolator" format="reference"/>
+        <attr name="collapse_interpolator" format="reference"/>
+        <attr name="container_interpolator" format="reference"/>
+    </declare-styleable>
+
+    <attr name="expandableItemStyle"/>
+
+    <declare-styleable name="PagerTabStrip">
+        <attr name="pststabTextColor" format="color" />
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+    </declare-styleable>
+</resources>
