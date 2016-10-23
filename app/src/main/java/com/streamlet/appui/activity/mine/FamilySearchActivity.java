@@ -115,7 +115,7 @@ public class FamilySearchActivity extends BaseActivity {
         finish();
     }
 
-    @OnClick(R.id.tv_ok)
+    @OnClick(R.id.tv_confirm)
     public void searchFamilyClick() {
         if (UIHelper.checkTv(activity, mEdtSearch, "请输入搜索内容")) {
             mAdapter.clearAdapter();
@@ -127,7 +127,7 @@ public class FamilySearchActivity extends BaseActivity {
     ImageView mImgvCancel;
     @Bind(R.id.edt_search)
     EditText mEdtSearch;
-    @Bind(R.id.tv_ok)
+    @Bind(R.id.tv_confirm)
     TextView mTvOk;
     @Bind(R.id.lv_family)
     ListView mLvFamily;
